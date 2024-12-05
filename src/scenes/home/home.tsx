@@ -5,9 +5,6 @@ import slogan from "../../assets/slogan.png";
 import quote2 from "../../assets/quote2.png";
 import { motion } from "framer-motion";
 
-// import BigLogo from "../../assets/BigLogo.png";
-// import BigLogo from "../../assets/BigLogo.png";
-
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void;

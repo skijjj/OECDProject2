@@ -21,10 +21,6 @@ const growthandfixed: Array<AboutType> = [
   
   ];
 
-// type Props = {
-//     setSelectedPage: (value: SelectedPage) => void;
-// }
-
 const Continue = () => {
 
     useEffect(() => {

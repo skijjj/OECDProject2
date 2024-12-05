@@ -25,12 +25,6 @@ const Aboutt = ({ icon,title,description } : Props) => {
         </div>
         <h4 className="font-bald text-white">{title}</h4>
         <p className="my-3 text-white">{description}</p>
-        {/* <AnchorLink className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
-                onClick={() => setSelectedPage(SelectedPage.MessageUs)}
-                href={`#${SelectedPage.MessageUs}`}
-        >
-          <p>Find out more about us</p>
-        </AnchorLink> */}
     </motion.div>
   )
 }
