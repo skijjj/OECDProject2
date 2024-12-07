@@ -5,12 +5,12 @@ export enum SelectedPage {
     GrowthAndFixed = "growthandfixed",
     Resilience = "resilience",
     FailForwardWeek = "failforwardweek",
-    MessageUs = "messageus",
     Footer = "footer",
     NewPage = "newpage",
     Continue = "continue",
     Interview = "interview",
     Communication = "communication",
+    OtherEvents = "otherevents",
   }
 
 export interface AboutType {

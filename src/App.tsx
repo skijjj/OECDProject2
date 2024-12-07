@@ -6,12 +6,12 @@ import Home from "./scenes/home/home";
 import About from "./scenes/about/about";
 import FailForwardWeek from "./scenes/ffw/ffw";
 import FearOfFailure from "./scenes/fof/fof";
-import MessageUs from "./scenes/messageus/messageus";
 import Footer from "./scenes/footer/footer";
 import NewPage from "./scenes/newpage/newpage";
 import Interview from "./scenes/interview/interview";
 import Continue from "./scenes/continue/continue";
 import Communication from "./scenes/communication/communication";
+import OtherEvents from "./scenes/other/other";
 
 const Main = ({ setSelectedPage }: { setSelectedPage: (value: SelectedPage) => void }) => {
   useEffect(() => {
@@ -34,7 +34,7 @@ const Main = ({ setSelectedPage }: { setSelectedPage: (value: SelectedPage) => v
       <FearOfFailure setSelectedPage={setSelectedPage} />
       <Interview setSelectedPage={setSelectedPage} />
       <Communication setSelectedPage={setSelectedPage} />
-      <MessageUs setSelectedPage={setSelectedPage} />
+      <OtherEvents setSelectedPage={setSelectedPage} />
       <Footer />
       </div>
     </>
